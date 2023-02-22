@@ -1,0 +1,403 @@
+* {
+  top: 0;
+  margin: 0;
+}
+
+/**NAVBAR**/
+.navbarpage {
+  display: flex;
+  align-items: flex-start;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-toggler-icon {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.navbarlogo {
+  position: relative;
+  margin-left: 50px;
+  top: 20px;
+  transform: scale(1.5);
+}
+.navbarlogo img {
+  border-radius: 15px;
+}
+.navbarlogo img:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 100;
+}
+.navbarpage img {
+  width: 90px;
+  height: 60px;
+}
+.navbarpage ul li {
+  padding: 0px 10px;
+}
+.navbar-nav .first-child {
+  border-bottom: 3px solid #c81920;
+}
+
+i.fa-envelope {
+  display: none;
+}
+/**Heading **/
+
+.truck-container {
+  height: 120vh;
+  margin-top: 55px;
+  display: flex;
+  background-image: url("./image-folder/ford\ truck-2.jpg"),
+    url("./ford\ truck.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+.internals {
+  width: 84%;
+  justify-self: center;
+}
+.left-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introduction-container a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+  color: red;
+}
+.introduction-container p {
+  font-size: 18px;
+}
+.introduction-container h2 {
+  padding-bottom: 17px;
+}
+.heading h1 {
+  font-size: 48px;
+}
+
+/**Client Container**/
+div.slider {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.slider .left_arrow {
+  position: absolute;
+  top: 100%;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+
+  bottom: 0px;
+
+  left: 2vw;
+  text-align: center;
+  line-height: 1.3;
+  display: inline-block;
+  cursor: pointer;
+}
+.slider .right_arrow {
+  position: absolute;
+  top: 100%;
+
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  bottom: 0px;
+  right: 90%;
+  text-align: center;
+  line-height: 1.3;
+  display: inline-block;
+  cursor: pointer;
+}
+span.see-all {
+  position: relative;
+  top: 50%;
+  font-size: 20px;
+  left: 4%;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+.see-all a {
+  color: #c81920;
+  
+}
+.project h4 {
+  margin-top: 2px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.project p {
+  font-size: 1.5rem;
+}
+
+div.project {
+  margin: 10px;
+}
+div.project:focus {
+  outline: 0;
+}
+.client-wrapper{
+  padding-bottom: 20px;
+}
+.client {
+  margin-left: 30px;
+  margin-top: 50px;
+  color: red;
+}
+.client-wrapper h3 {
+  font-size: 48px;
+}
+
+/*FORM*/
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image-folder/0x0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-fill {
+  width: 800px;
+  background-color: white;
+
+  border-top: 8px solid #c81920;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.form-fill span {
+  color: #c81920;
+}
+.form-fill h4 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.form-fill p {
+  font-size: 32px;
+}
+.label {
+  display: block;
+}
+.submitButton {
+  background-color: white;
+  color: #c81920;
+  border: none;
+  font-size: 20px;
+}
+.submitButton:focus {
+  outline: 0;
+}
+.surveySubmit {
+  text-align: right;
+}
+
+.fa-asterisk {
+  color: #c81920;
+  transform: scale(0.7);
+}
+.survey input {
+  margin-bottom: 15px;
+}
+.fadein {
+  opacity: 0;
+}
+
+/** FOOTER*/
+
+
+.heading {
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+
+.heading span {
+  color: #c81920;
+}
+
+.fadeinright {
+  opacity: 0;
+  margin-left: -100px;
+  max-width: 100%;
+}
+.red h3 {
+  font-style: bold;
+}
+.red {
+  color: #c81920;
+}
+.fa-linkedin,
+.fa-facebook-square {
+  margin-left: 20px;
+  transform: scale(2);
+  color: black;
+}
+.fa-linkedin {
+  margin-left: 20px;
+}
+.first-column {
+  margin-top: 20px;
+}
+.first-column p {
+  padding: 0;
+}
+
+.third-party-logos {
+  display: flex;
+  justify-content: flex-end;
+}
+.third-party-logos img {
+  object-position: center;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+.navbarfooter {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbarfooter ul,
+li {
+  display: inline-block;
+}
+.navbarfooter li a {
+  padding: 0 10px;
+  color: black;
+}
+.navbarfooter li a:hover {
+  color: #c81920;
+  transition: 0.4s;
+}
+
+
+/* Different Sceen Sizes*/
+
+
+
+@media screen and (max-width: 998px) {
+  .navbarfooter ul li a {
+    font-size: smaller;
+  }
+  .slider .left_arrow {
+    left: 2%;
+  }
+  .slider .right_arrow {
+    right: 80%;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .heading h3 {
+    font-size: 3.3vw;
+  }
+  .heading h1 {
+    font-size: 2rem;
+  }
+  .truck-container {
+    background-position: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  section .container-fluid .navbar-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-wrapper {
+    background-image: none;
+  }
+  .form-fill {
+    border-bottom: 8px solid #c81920;
+    margin-bottom: 100px;
+  }
+  .navbarfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbarfooter li a {
+    font-size: small;
+  }
+  .navbar-brand {
+    margin: 0;
+    transform: scale(0.9);
+    top: 0;
+    
+
+  }
+
+  i.fa-envelope {
+    display: contents;
+    transform: scale(2);
+    color: darkgray;
+  
+  }
+  a.mail-button {
+    transform: scale(2);
+    padding-right: 10px;
+  }
+
+  a.mail-button:focus {
+    border: 0;
+    outline: 0;
+  }
+  a.mail-button:hover {
+    text-decoration: none;
+  }
+  .first-column {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .first-column span {
+    display: block;
+  }
+  h3.red,
+  p.red {
+    padding: 0;
+    margin: 0;
+  }
+  div.iconclass {
+    justify-content: center;
+    column-gap: 25px;
+  }
+  .fa-facebook-square,
+  .fa-linkedin {
+    padding: 0;
+    margin: 0;
+  }
+  div.third-party-logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 551px) {
+  .navbarfooter ul li a {
+    padding: 0 5px;
+    font-size: smaller;
+  }
+}

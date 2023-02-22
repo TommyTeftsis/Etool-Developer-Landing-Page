@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+<script>
+  $(document).ready(function() {
+	    $(window).scroll( function(){
+	        $('.fadein').each( function(i){
+	            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+
+	            var bottom_of_window = $(window).scrollTop() + $(window).height();
+	            if( bottom_of_window > bottom_of_element ){
+                $(this).animate({'opacity':'1'},1000);
+           }
+	        });
+
+	    });
+      $(window).scroll( function(){
+	        $('.fadeinright').each( function(i){
+	            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+	            var bottom_of_window = $(window).scrollTop() + $(window).height();
+	            if( bottom_of_window > bottom_of_element ){
+	                $(this).animate({'opacity':'1','margin-left':'0px'},800);
+	            }
+	        });
+	    });
+
+	});
+  
+</script>
+
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar p-0  navbarpage navbar-expand-md navbar-light bg-light fixed-top">
+    <!-- Brand -->
+    <button class="navbar-toggler text-body" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon  "></span>
+    </button>
+    <a class="navbarlogo navbar-brand " href=""><img href="#index.html" src="./image-folder/Screenshot 2023-02-17 at 11-08-13 Automotive eCommerce Websites & PIM eTool Developers.png" alt="photo-logo" srcset="" ></a>
+    <a class="mail-button" href="https://www.etooldevelopers.com/contact-us">
+      <i class="fa fa-envelope"></i>
+    </a>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link  first-child text-body" href="#HOME">HOME<span class="active-bar"></span> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-body" href="https://www.etooldevelopers.com/our-work">WORK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-body" href="https://www.etooldevelopers.com/products-and-services">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-body" href="https://www.etooldevelopers.com/about-us">ABOUT</a>
+        </li>
+        <li class="nav-item last-child">
+          <a class="nav-link text-danger" href="https://www.etooldevelopers.com/contact-us">LET'S CONNECT</a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+  <div class="truck-container container-fluid">
+    <div class="heading container">
+      
+      <h1> <strong> We Build Websites That Are <span>Responsive</span></strong></h1>
+      <h3>Our custom eCommerce platform is built from the ground up to sell automotive products online. Our experience with Year Make Model Search and PIES & ACES product data empowers eTool Developers to be the trusted website and mobile application developer in the Automotive Aftermarket Industry.</h3>
+      
+  </div>
+  </div>
+  <br>
+  <div class="image-grid">
+    <div class="row">
+      <img class="col-md-4 img-fluid fadein" src="./image-folder/Screenshot 2023-02-17 at 12-11-54 Automotive eCommerce Websites & PIM eTool Developers.png" alt="" srcset="">
+      <img class="col-md-4 img-fluid fadein" src="./image-folder/Screenshot 2023-02-17 at 12-12-02 Automotive eCommerce Websites & PIM eTool Developers.png" alt="" srcset="">
+      <img class="col-md-4 img-fluid fadein" src="./image-folder/Screenshot 2023-02-17 at 12-12-07 Automotive eCommerce Websites & PIM eTool Developers.png" alt="" srcset="">
+    </div>
+    <br>
+    <div class="row">
+      <img class="col-md-6 img-fluid fadein" src="./image-folder/Screenshot 2023-02-17 at 12-28-49 Automotive eCommerce Websites & PIM eTool Developers.png" alt="" srcset="">
+      <img class="col-md-6 img-fluid fadein" src="./image-folder/Screenshot 2023-02-17 at 12-28-57 Automotive eCommerce Websites & PIM eTool Developers.png" alt="" srcset="">
+    </div>
+  </div>
+<br>
+  <div class="introduction-container container-fluid px-4 ">
+<div class="row">
+<div class="left-column col-md-6">
+  <div class="internals">
+  <h2>For twenty years, eTool Developers has been providing digital tools that power the <strong>leaders of the Automotive Aftermarket.</strong></h2>
+  <p>Our goal is to provide you with online solutions capable of meeting the demands of both you and your customers. Your success is our success! We have developed and implemented countless customized business solutions and digital ecosystems for our clients. We strive to empower our clients by equipping them with online tools tailored to meet their specific business needs.</p>
+  <a href="https://www.etooldevelopers.com/products-and-services">Learn More</a>
+</div>
+</div>
+<img class="img-fluid col-md-6 fadeinright" src="./image-folder/Screenshot 2023-02-17 at 12-48-37 Automotive eCommerce Websites & PIM eTool Developers.png" width="75" height="75" alt="">
+  </div>
+ </div>
+</div>
+<div class="client-wrapper">
+  <div class="row">
+    <div class="client col-xs-12 p-3">
+      <h3>Featured Client <strong>Work</strong></h3>
+
+    </div>
+  </div>
+    <div class="slider container-fluid">
+            <div class="project">
+              <a href="https://www.huskyliners.com//">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-45-41 Automotive eCommerce Websites & PIM eTool Developers.png" alt="First Photo"></a>
+                <h4>Husky Liners</h4>
+                  <p>The ultimate in floor protection.</p>
+            </div>
+          
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://www.actiontrucks.com/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-46-08 Automotive eCommerce Websites & PIM eTool Developers.png" alt="First Photo"></a>
+                <h4>Action Trucks</h4>
+                  <p>Canada's Leading Truck Accessory retailer.</p>
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://www.westinautomotive.com/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-46-14 Automotive eCommerce Websites & PIM eTool Developers.png" alt=""></a>
+                <h4>Westin Automotive</h4>
+                  <p>Automotive products to fit your active lifestyle</p>
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://superlift.com/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-46-23 Automotive eCommerce Websites & PIM eTool Developers.png" alt=""></a>
+                <h4>Superlift Suspension</h4>
+                  <p>Built for Enthusiasts, by Enthusiasts</p>
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://www.amp-research.com/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-46-37 Automotive eCommerce Websites & PIM eTool Developers.png" alt=""></a>
+                <h4>AMP Research</h4>
+                  <p>Innovation in Motion.</p>
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://www.bushwacker.com/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-46-46 Automotive eCommerce Websites & PIM eTool Developers.png" alt=""></a>
+                <h4>Bushwacker</h4>
+                  <p>Unrivaled Vehicle Protection.</p>
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://www.aftermarketcharity.org/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-47-10 Automotive eCommerce Websites & PIM eTool Developers.png" alt=""></a>
+                <h4>AACF</h4>
+                  <p>We're behind you all the way</p>
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3"> -->
+            <div class="project">
+              <a href="https://truck-hero.com/">
+              <img class="img-fluid" src="./image-folder/Screenshot 2023-02-21 at 09-47-18 Automotive eCommerce Websites & PIM eTool Developers.png" alt=""></a>
+                <h4>Truck Hero</h4>
+                  <p>Accessories for Trucks, Jeeps, and Life</p>
+            <!-- </div> -->
+          </div>
+          
+        </div>
+        <span class="see-all">
+        <a href="https://www.etooldevelopers.com/our-work">See All</a></span>
+    </div> 
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+
+$('.slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow:'<i class="fa fa-arrow-left left_arrow"></i>',
+  nextArrow:'<i class="fa fa-arrow-right right_arrow"></i>',
+  responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+  ]
+      }); 
+    </script>
+</div>
+<section class="form-wrapper">
+  <div class="form-fill">
+<h4>Ready to rebuild your website?</h4>
+<p>Let's make your competitors <span>jealous</span></p>
+<div class="survey">
+  <div class="form-row">
+    <div class="col">
+  <label class="label"for="name"><strong>Name<i class="fa fa-asterisk" aria-hidden="true"></i>
+  </strong></label>
+  <input class="form-control" type="text" required>
+</div>
+<div class="col">
+  <label class="label" for="name"><strong>Company</strong></label>
+  <input class="form-control"type="text" required>
+</div>
+</div>
+  <div class="form-row">
+    <div class="col ">
+  <label class="label" for="name"><strong>Email<i class="fa fa-asterisk" aria-hidden="true"></i>
+  </strong></label>
+  <input class="form-control" type="email" required>
+</div><div class="col">
+
+  <label class="label" for="name"><strong>Number<i class="fa fa-asterisk" aria-hidden="true"></i>
+  </strong></label>
+  <input class="form-control"type="tel" required>
+</div>
+</div>
+<br>
+
+<div class="form-row">
+  <div class="col">
+  <label class="label" for="text"><strong>Comments</strong></label>
+  
+  <textarea class=" form-control label" name="" id="" cols="50" rows="5"></textarea>
+</div>
+</div>
+<div class="surveySubmit">
+  <button class="submitButton">SEND US A MESSAGE <i class="fa fa-arrow-right"></i></button> 
+</div>
+</div>
+  </div>
+</section>
+<section class="containerfooter container-fluid">
+  <div class="row">
+    <div class="first-column contrainer-fluid col-md-6 " >
+<h3 class="red">1.616.803.0443</h3>
+  <p class="red">contact@etooldev.com</p>
+  <p>4665 Broadmoor Ave SE #120,<span>Grand Rapids, MI 49512</span> </p>
+    <div class="iconclass row">
+    <a href="https://www.facebook.com/eToolDevelopers">
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  </a>
+    <a href="https://www.linkedin.com/in/luannebrown">
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+  </a>
+  </div>
+</div>
+<div class="second-column  col-md-6">
+<div class="navbarfooter">
+  
+  <ul class="">
+    <li class="">
+      <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="">
+      <a class="nav-link" href="#">WORK</a>
+    </li>
+    <li class="">
+      <a class="nav-link" href="#">SERVICES</a>
+    </li>
+    <li class="">
+      <a class="nav-link" href="#">ABOUT</a>
+    </li>
+    <li class="">
+      <a class="nav-link" href="#">CONTACT US</a>
+    </li>
+  </ul>
+
+</div> 
+
+  <div class="third-party-logos">
+<a href="https://www.autocare.org/">
+<img src="./image-folder/Screenshot 2023-02-19 at 15-27-32 Automotive eCommerce Websites & PIM eTool Developers.png" alt="">
+</a>
+<a href="https://www.sema.org/">
+<img src="./image-folder/Screenshot 2023-02-19 at 15-27-43 Automotive eCommerce Websites & PIM eTool Developers.png" alt="">
+</a>
+<a href="https://www.autocare.org/data-and-information/data-standards/product-information-exchange-standard-(pies)">
+<img src="./image-folder/Screenshot 2023-02-19 at 15-27-50 Automotive eCommerce Websites & PIM eTool Developers.png" alt="">
+</a>
+<a href="https://www.autocare.org/data-and-information/data-standards/aftermarket-catalog-exchange-standard-(aces)">
+<img src="./image-folder/Screenshot 2023-02-19 at 15-27-55 Automotive eCommerce Websites & PIM eTool Developers.png" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 d-flex justify-content-center text-center text-muted">
+  
+  <p>
+    eTool Developers LLC © 2023 - All Rights Reserved. 
+    <br>
+    <a class="text-muted" href="https://www.etooldevelopers.com/terms-of-use">Terms</a> |
+    <a class="text-muted" href="https://www.etooldevelopers.com/privacy-policy">Privacy</a> |
+    <a class="text-muted" href="https://www.etooldevelopers.com/cookies">Cookies</a> |
+    <a class="text-muted" href="https://www.etooldevelopers.com/disclaimer">Disclaimer</a>
+
+  </p>
+</div>
+</div>
+</section>
+</body>
+</html>
